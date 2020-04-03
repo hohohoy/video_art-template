@@ -1,0 +1,225 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+    font-family: "Helvetica Neue", Helvetica, Arial, STHeiTi, "Hiragino Sans GB", "Microsoft Yahei", "微软雅黑", STHeiti, "华文细黑", sans-serif;
+    -webkit-overflow-scrolling: touch;
+    height: 100%;
+    width: 100%;
+}
+p{
+    text-align: center;
+    color: #fff;
+}
+.mask{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 100%;
+    background: rgba(34, 34, 34, 0.7);
+    z-index: 1;
+}
+.bg{
+    height: 100%;
+    width: 100vw;
+    position: absolute;
+    left: 0;
+    top: 0;
+    position: fixed;
+    background-size: contain;
+    z-index: -1;
+    background: url("../static/bg_blurry.jpg");
+}
+.returnMainpage{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    .returnLogo{
+        margin: 12px 0 0 12px;
+        display: inline-block;
+        height: 30px;
+        width: 30px;
+        background: url('../static/return.png');
+        background-size: cover;
+    }
+}
+
+.mainWrapper{
+    height: 100%;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 5;
+    overflow-y: auto;
+    .mainPage{
+        // display: none;
+    }
+    .content_item{
+        position: relative;
+    }
+    .item_bottom{
+        position: absolute;
+        bottom: 10px;
+        left: 10px;
+        z-index: 20;
+        p{
+            color:#b7b7b7;
+            text-align:left;
+            font-size:15px; 
+            
+        }
+        
+    }
+    .logoItem {
+        text-align: center;
+        span {
+            margin: 0 auto;
+            display: block;
+            height: 16px;
+            width: 120px;
+            background: url("../static/LILANZ.png");
+            background-size: cover;
+        }
+    }
+    .header{
+        margin: 20px 0;
+        p{
+            padding: 6px 0;
+        }
+    }
+    .content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .content_item{
+        height: 195px;
+        width: 88vw;
+        border-radius: 10px;
+        margin: 11px 5vw;
+        padding-left: 2vw;
+        background: #fff;
+        font-weight: bold;
+        overflow: hidden;
+        max-width: 540px;
+        .font_img{
+            display: flex;
+            position: relative;
+        }
+        .eng {
+            padding: 15px 0;
+            writing-mode: vertical-rl;
+            text-align: right;
+            font-size: 13px;
+            color: rgb(63, 61, 59);
+            height: 105px;
+            width: 30px;
+        }
+
+        .imgbox_list {
+            position: absolute;
+            right: 0;
+            top: 0;
+            width: 270px;
+            padding: 6px 0;
+            // z-index: 9;
+    }
+    }
+    .vedioPage{
+        // display: none;
+        padding-top: 43px;
+    }
+    .vedio_block{
+        display: none;
+    }
+    .vedio_item{
+        // display: none;
+        position: relative;
+        height: 210px;
+        margin: 20px auto;
+        width: 92vw;
+        border-radius: 12px;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        max-width: 540px;
+        .icon_item {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 120px;
+            span {
+                background: url('../static/playvidio2.png');
+                background-size: cover;
+                height: 36px;
+                width: 36px;
+            }
+        }
+        .vedioName{
+            flex: 1;
+            background: linear-gradient(to bottom,rgba(255, 255, 255,.7) 40%,#fff 100%);
+            text-align: center;
+            color: black;
+            font-size: 19px;
+            padding-top: 10px;
+            span{
+                color: rgb(214, 8, 8);
+                font-style: italic;
+                padding-right: 6px;
+            }
+        }
+    }
+    .vedio_wrapper{
+        display: none;
+    }
+    .vedio_pop_item{
+        display: none;
+        height: 100%;
+        width: 100vw;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 25;
+        background: rgba(7, 7, 7, .9);
+        line-height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        .vedio_pop{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+
+    span.closebtn {
+        display: inline-block;
+        background: url('../static/closeVedio.png');
+        background-size: cover;
+        height: 30px;
+        width: 30px;
+        margin-top: 40px;
+    }
+    .playlogo {
+        height: 25px;
+        line-height: 25px;
+        display: flex;
+
+        div {
+            background: url("../static/play.png") no-repeat;
+            background-size: 100% 100%;
+            height: 17px;
+            width: 17px;
+            margin: 4px 0;
+        }
+    }
+}

@@ -1,0 +1,12 @@
+<div class="vedio_pop_item">
+    <div class="vedio_pop">
+        <video id="v1" webkit-playsinline="true" x-webkit-airplay="true" playsinline="true"
+            x5-video-orientation="h5" x5-video-player-fullscreen="true" x5-playsinline="" width="100%"
+            controls>
+            <source
+                src="http://lilanz.oss-cn-fujian-a.aliyuncs.com/2020AutumnOrderFair/Communication.mp4">
+            </source>
+        </video>
+        <span class="closebtn"></span>
+    </div>
+</div>

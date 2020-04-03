@@ -1,0 +1,59 @@
+
+    {
+        "mainTitle":"2020秋季订货会宣导视频",
+        "mainItem":[
+            {
+                "englishTitle":"REFROM DEEP QUALTITY",
+                "img":"list_01.jpg",
+                "itemTitle":"质量深度改革",
+                "videoNum":1
+            },
+            {
+                "englishTitle":"ANALYSIS DATA FALLPRODUCT",
+                "img":"list_02.jpg",
+                "itemTitle":"秋季产品结构数据分析",
+                "videoNum":1
+            },
+            {
+                "englishTitle":"ANALYSIS DATA FALLPRODUCT",
+                "img":"list_03.jpg",
+                "itemTitle":"IP推广及产品片",
+                "videoNum":3
+            },
+            {
+                "englishTitle":"ANALYSIS DATA FALLPRODUCT",
+                "img":"list_04.jpg",
+                "itemTitle":"鞋类规划",
+                "videoNum":1
+            }
+        ],
+        "listImg":"",
+        "videoList":[
+            [
+                {"name":"沟通片/宣导片","bac":"http://lilanz.oss-cn-fujian-a.aliyuncs.com/2020AutumnOrderFair/Communication_poster.jpg","src":"http://lilanz.oss-cn-fujian-a.aliyuncs.com/2020AutumnOrderFair/Communication.mp4","item":"1"}
+            ],
+            [
+                {"name":"商品企划片","bac":"http://lilanz.oss-cn-fujian-a.aliyuncs.com/2020AutumnOrderFair/Planning_poster.jpg","src":"http://lilanz.oss-cn-fujian-a.aliyuncs.com/2020AutumnOrderFair/Planning.mp4","item":"2"}
+            ],
+            [
+                {"name":"利郎中国日报推广片1","bac":"http://lilanz.oss-cn-fujian-a.aliyuncs.com/2020AutumnOrderFair/CHINADAILY_PRO_poster.jpg","src":"http://lilanz.oss-cn-fujian-a.aliyuncs.com/2020AutumnOrderFair/CHINADAILY_PRO.mp4","item":"3-1"},
+                {"name":"利郎中国日报推广片2","bac":"http://lilanz.oss-cn-fujian-a.aliyuncs.com/2020AutumnOrderFair/chinadaily2_poster.jpg","src":"http://lilanz.oss-cn-fujian-a.aliyuncs.com/2020AutumnOrderFair/Basquiat.mp4","item":"3-2"},
+                {"name":"巴斯奎特","bac":"http://lilanz.oss-cn-fujian-a.aliyuncs.com/2020AutumnOrderFair/Basquiat_poster.jpg","src":"http://lilanz.oss-cn-fujian-a.aliyuncs.com/2020AutumnOrderFair/Basquiat.mp4","item":"3-3"},
+                {"name":"少数民族&中国日报","bac":"http://lilanz.oss-cn-fujian-a.aliyuncs.com/2020AutumnOrderFair/LIANZ_CHINADAILY_poster.jpg","src":"http://lilanz.oss-cn-fujian-a.aliyuncs.com/2020AutumnOrderFair/Basquiat.mp4","item":"3-4"},
+                {"name":"中国日报联名-花絮","bac":"http://lilanz.oss-cn-fujian-a.aliyuncs.com/2020AutumnOrderFair/chinadaily3_poster.jpg","src":"http://lilanz.oss-cn-fujian-a.aliyuncs.com/2020AutumnOrderFair/Basquiat.mp4","item":"3-5"}
+            ],
+            [
+                {"name":"气泡鞋底","bac":"http://lilanz.oss-cn-fujian-a.aliyuncs.com/2020AutumnOrderFair/Bubble_Sole_poster.jpg","src":"http://lilanz.oss-cn-fujian-a.aliyuncs.com/2020AutumnOrderFair/Basquiat.mp4","item":"4"}
+            ]
+        ],
+        "videos":{
+            "v1":"http://lilanz.oss-cn-fujian-a.aliyuncs.com/2020AutumnOrderFair/Communication.mp4",
+            "v2":"http://lilanz.oss-cn-fujian-a.aliyuncs.com/2020AutumnOrderFair/Planning.mp4",
+            "v3-1":"http://lilanz.oss-cn-fujian-a.aliyuncs.com/2020AutumnOrderFair/CHINADAILY_PRO.mp4",
+            "v3-2":"http://lilanz.oss-cn-fujian-a.aliyuncs.com/2020AutumnOrderFair/chinadaily2.mp4",
+            "v3-3":"http://lilanz.oss-cn-fujian-a.aliyuncs.com/2020AutumnOrderFair/Basquiat.mp4",
+            "v3-4":"http://lilanz.oss-cn-fujian-a.aliyuncs.com/2020AutumnOrderFair/LIANZ_CHINADAILY.mp4",
+            "v3-5":"http://lilanz.oss-cn-fujian-a.aliyuncs.com/2020AutumnOrderFair/chinadaily3.mp4",
+            "v4":"http://lilanz.oss-cn-fujian-a.aliyuncs.com/2020AutumnOrderFair/Bubble_Sole.mp4"
+    }
+}

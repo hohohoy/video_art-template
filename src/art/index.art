@@ -1,0 +1,12 @@
+<div class="mainPage">
+    <div class="header">
+        <div class="logoItem"><span></span></div>
+        <p>{{mainTitle}}</p>
+    </div>
+{{include  './content.art'}}
+</div>
+<div class="vedioPage">
+    {{include './videoList.art'}}
+    <div class="vedio_wrapper">{{include './showVideo.art'}}</div>
+</div>
+

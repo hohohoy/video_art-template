@@ -1,0 +1,13 @@
+{{each videoList}}
+<div class="vedio_block">
+{{each $value}}
+<div class="vedio_item" data-item="{{$value.item}}"
+    style="background: url({{$value.bac}});background-size: cover;">
+    <div class="icon_item"><span class="playVedio"></span></div>
+    <div class="vedioName">
+        <span>{{$index | dateFormat}}</span>{{$value.name}}
+    </div>
+</div>
+{{/each}}
+</div>
+{{/each}}

@@ -1,0 +1,17 @@
+<div class="content">
+{{each mainItem}}
+    <div class="content_item">
+        <div class="font_img">
+            <div class="eng">{{$value.englishTitle}}</div>
+            {{set temp ="list_02.jpg" }}
+            <div class="imgbox_list"><img src="{{require("../static/list/"+$value.img)}}" width="100%" alt=""></div>
+        </div>
+        <div class="item_bottom">
+            <p>{{$value.itemTitle}}</p>
+            <div class="playlogo">
+                <div></div><span>X{{$value.videoNum}}</span>
+            </div>
+        </div>
+    </div>
+{{/each}}
+</div>
